@@ -17,16 +17,7 @@ for (int i = 0; i < massInput.Length; i++)
 {
     if(massInput[i].Length <= 3)
     {
-        string [] massNewResult = new string[massResult.Length + 1];    
-        
-        for (int j = 0; j < massResult.Length; j++)
-        {
-            massNewResult[j] = massResult[j];        
-        }
-
-        massNewResult[massNewResult.Length - 1] = massInput[i];        
-
-        massResult = massNewResult;         
+              
     }
 }
 
